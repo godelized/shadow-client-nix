@@ -20,4 +20,8 @@
       libpulseaudio
     ];
   };
+
+  mac = {}:
+  shadow:
+  abort "build on macOS unimplemented, feel free to contribute";
 }
