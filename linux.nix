@@ -1,13 +1,13 @@
 {
   prod = {
     channel = "prod";
-    hash = "sha512-HzHgpK8f/u74SXYO8gAhYgTSWBS+qbnDxyBmPtzc53pqRqYKmGbXI4fP2nHZS9KliXMxFeGqRpYBxt45Jc82QQ==";
+    hash = "sha512-xWvVcq1svyWqQlePMBk8QRPeS85zBs3LbrGO+BUFaTLyiVO4hV3aB52km2U/JqgpJ0EJb/m9k7AoTG1KtKzFFQ==";
     name = "shadow-client";
-    releaseDate = "2022-07-05T16:14:48.426Z";
+    releaseDate = "2022-08-22T08:20:18.873Z";
     subSystem = "ubuntu_18.04";
     system = "linux";
-    url = "https://update.shadow.tech/launcher/prod/linux/ubuntu_18.04/Shadow-5.0.1138.AppImage";
-    version = "5.0.1138";
+    url = "https://update.shadow.tech/launcher/prod/linux/ubuntu_18.04/Shadow-5.0.1161.AppImage";
+    version = "5.0.1161";
   };
 
   preprod = {
