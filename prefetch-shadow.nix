@@ -5,21 +5,27 @@
   system ? "linux",
   subSystem ? "ubuntu_18.04",
   channel ? "prod", # prod, preprod, testing
-}:
-let 
-  latest-yml = builtins.fetchurl
+}: let
+  latest-yml =
+    builtins.fetchurl
     "https://storage.googleapis.com/shadow-update/launcher/${channel}/${system}/${subSystem}/latest-${system}.yml";
 
   latest = builtins.fromJSON (
     builtins.readFile (
       runCommandLocal "latest-json" {
-        buildInputs = [ yq ];
+        buildInputs = [yq];
       }
       "yq -crM '.' ${latest-yml} > $out"
     )
   );
 in {
-  name = "shadow-client" + (if channel == "prod" then "" else "-" + channel);
+  name =
+    "shadow-client"
+    + (
+      if channel == "prod"
+      then ""
+      else "-" + channel
+    );
   channel = channel;
   system = system;
   subSystem = subSystem;

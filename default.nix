@@ -1,10 +1,6 @@
-{
-  pkgs ? import <nixpkgs> {},
-}:
-
-let 
+{pkgs ? import <nixpkgs> {}}: let
   linux = import ./linux.nix;
   mac = import ./mac.nix;
-  build = import ./build.nix { inherit (pkgs) fetchurl; };
+  build = import ./build.nix {inherit (pkgs) fetchurl;};
 in
-build.linux { inherit (pkgs) appimageTools; } linux.prod
+  build.linux {inherit (pkgs) appimageTools;} linux.prod
