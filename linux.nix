@@ -1,34 +1,34 @@
 {
   prod = {
     channel = "prod";
-    hash = "sha512-xWvVcq1svyWqQlePMBk8QRPeS85zBs3LbrGO+BUFaTLyiVO4hV3aB52km2U/JqgpJ0EJb/m9k7AoTG1KtKzFFQ==";
+    hash = "sha512-tdAqs+ShXbxnjVn8bIQD4PlKL++2MDyvkhPgIuaUFc+z7yqDcNhL7RkXnCSQYa/rkd/a2O9GxX4BmM3sIBnaSQ==";
     name = "shadow-client";
-    releaseDate = "2022-08-22T08:20:18.873Z";
+    releaseDate = "2022-09-08T09:40:16.941Z";
     subSystem = "ubuntu_18.04";
     system = "linux";
-    url = "https://update.shadow.tech/launcher/prod/linux/ubuntu_18.04/Shadow-5.0.1161.AppImage";
-    version = "5.0.1161";
+    url = "https://update.shadow.tech/launcher/prod/linux/ubuntu_18.04/Shadow-5.0.1168.AppImage";
+    version = "5.0.1168";
   };
 
   preprod = {
     channel = "preprod";
-    hash = "sha512-x/u587T3AkxZBLMmYjUahQrmEqurYMujyNrvucT+leSfy7jv+T9B0G7d+oddzaU8h393+n4mtC56k9hPxE9IUQ==";
+    hash = "sha512-zLZ6GKymkTdWenZFaG4KbIgBhtNRhIIJXp2iQS2TWOgtm2lWhjWoRRoG8FlqUg36FTsQzQk0LLGMYmAFiWdIaQ==";
     name = "shadow-client-preprod";
-    releaseDate = "2022-08-08T15:23:27.679Z";
+    releaseDate = "2022-09-15T12:22:51.946Z";
     subSystem = "ubuntu_18.04";
     system = "linux";
-    url = "https://update.shadow.tech/launcher/preprod/linux/ubuntu_18.04/ShadowBeta-5.0.1158.AppImage";
-    version = "5.0.1158";
+    url = "https://update.shadow.tech/launcher/preprod/linux/ubuntu_18.04/ShadowBeta-5.0.1174.AppImage";
+    version = "5.0.1174";
   };
 
   testing = {
     channel = "testing";
-    hash = "sha512-pVWhCILk8N3voIfZdgynNVz45LQFPse7o+haSmCjeiixAjeSo0YcvS2ZmEWRZeWBaRDpjWzAG9FhS/GrtwUB3A==";
+    hash = "sha512-ZqVjaGynQub8zDR0rhIVpzR9oNtR+yX5B3qG2SF7Z1nf4tdIUFF1P71jPYgWoP4wof23IrgGl7QhXTK7Rs2OYQ==";
     name = "shadow-client-testing";
-    releaseDate = "2022-08-02T12:07:08.174Z";
+    releaseDate = "2022-09-16T13:55:52.751Z";
     subSystem = "ubuntu_18.04";
     system = "linux";
-    url = "https://update.shadow.tech/launcher/testing/linux/ubuntu_18.04/ShadowAlpha-5.0.1152.AppImage";
-    version = "5.0.1152";
+    url = "https://update.shadow.tech/launcher/testing/linux/ubuntu_18.04/ShadowAlpha-5.0.1177.AppImage";
+    version = "5.0.1177";
   };
 }
