@@ -13,6 +13,7 @@
           libva
           libinput
           libpulseaudio
+          nss_latest
         ];
     };
 
