@@ -12,13 +12,13 @@
 
   preprod = {
     channel = "preprod";
-    hash = "sha512-zLZ6GKymkTdWenZFaG4KbIgBhtNRhIIJXp2iQS2TWOgtm2lWhjWoRRoG8FlqUg36FTsQzQk0LLGMYmAFiWdIaQ==";
+    hash = "sha512-C8q6q+k37WQ40eRUnEuPYDAYbbnaq9x0GoLF6iRA/Z9ZaXBLrLTd++FU2u+QSnaeUnIy4nslO9SY4glohySIuw==";
     name = "shadow-client-preprod";
-    releaseDate = "2022-09-15T12:22:51.946Z";
+    releaseDate = "2022-09-26T09:38:42.145Z";
     subSystem = "ubuntu_18.04";
     system = "linux";
-    url = "https://update.shadow.tech/launcher/preprod/linux/ubuntu_18.04/ShadowBeta-5.0.1174.AppImage";
-    version = "5.0.1174";
+    url = "https://update.shadow.tech/launcher/preprod/linux/ubuntu_18.04/ShadowBeta-5.0.1182.AppImage";
+    version = "5.0.1182";
   };
 
   testing = {
