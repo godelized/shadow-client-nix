@@ -23,12 +23,12 @@
 
   testing = {
     channel = "testing";
-    hash = "sha512-ZqVjaGynQub8zDR0rhIVpzR9oNtR+yX5B3qG2SF7Z1nf4tdIUFF1P71jPYgWoP4wof23IrgGl7QhXTK7Rs2OYQ==";
+    hash = "sha512-OSrrocpeQ1aH/73M3GLnS/nd+fT0Cf32uBR29dbAofxTFyYl5F9AVvU/mo2N7PMSKT17TzSQTQ7bspZYlrAOmw==";
     name = "shadow-client-testing";
-    releaseDate = "2022-09-16T13:55:52.751Z";
+    releaseDate = "2022-09-22T12:27:58.177Z";
     subSystem = "ubuntu_18.04";
     system = "linux";
-    url = "https://update.shadow.tech/launcher/testing/linux/ubuntu_18.04/ShadowAlpha-5.0.1177.AppImage";
-    version = "5.0.1177";
+    url = "https://update.shadow.tech/launcher/testing/linux/ubuntu_18.04/ShadowAlpha-5.0.1179.AppImage";
+    version = "5.0.1179";
   };
 }
